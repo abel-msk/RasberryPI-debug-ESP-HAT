@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ESP_Debug")(type "KiCad")(uri "${KIPRJMOD}/ESP_Debug.pretty")(options "")(descr "Project footprints"))
+)

@@ -1,0 +1,17 @@
+# KiCad: autobackups, lock and cache files
+*-backups/
+*.lck
+~*.lck
+fp-info-cache
+*.kicad_prl
+_autosave-*
+*.bak
+
+# Editor local history
+.history/
+
+# Manual backups made before edits (history is in git now)
+backup-before-*/
+template-backup-*/
+
+.DS_Store
