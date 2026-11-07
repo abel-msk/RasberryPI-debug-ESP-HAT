@@ -8073,7 +8073,7 @@
 				)
 			)
 		)
-		(property "Value" "KF243-5.0-8P"
+		(property "Value" "KF250-2.54-8P"
 			(at 276.606 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8083,7 +8083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Local:KF243-5.0-8P"
+		(property "Footprint" "TerminalBlock_Local:KF250-2.54-8P"
 			(at 272.796 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8094,7 +8094,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C49173293.pdf"
 			(at 272.796 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8105,7 +8105,7 @@
 				)
 			)
 		)
-		(property "Description" "Spring terminal block KF243-5.0 8P, logic analyzer GND/3V3/IO21..IO7"
+		(property "Description" "Spring terminal block KF250-2.54-8P-1 (LCSC C49173293), logic analyzer GND/3V3/IO21..IO7"
 			(at 272.796 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8171,7 +8171,7 @@
 				)
 			)
 		)
-		(property "Value" "KF243-5.0-7P"
+		(property "Value" "KF250-2.54-7P"
 			(at 276.606 40.386 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8181,7 +8181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Local:KF243-5.0-7P"
+		(property "Footprint" "TerminalBlock_Local:KF250-2.54-7P"
 			(at 272.796 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8192,7 +8192,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C49173293.pdf"
 			(at 272.796 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8203,7 +8203,7 @@
 				)
 			)
 		)
-		(property "Description" "Spring terminal block KF243-5.0 7P, logic analyzer IO6..IO0"
+		(property "Description" "Spring terminal block KF250-2.54-7P-1 (LCSC C49173292), logic analyzer IO6..IO0"
 			(at 272.796 66.04 0)
 			(hide yes)
 			(show_name no)
