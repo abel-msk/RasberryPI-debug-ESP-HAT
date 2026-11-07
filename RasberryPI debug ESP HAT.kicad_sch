@@ -4509,36 +4509,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 66.04) (xy 267.716 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23bc6e98-5ada-4544-9839-61352e8cf574")
-	)
-	(label "ESP_IO21"
-		(at 256.54 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d1103af2-0007-4c2d-8a12-c5e401151e62")
-	)
-	(label "ESP_5V"
-		(at 202.946 35.052 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "09978ad8-f0e0-46df-8123-b397eeeb7e53")
-	)
-	(wire
-		(pts
 			(xy 256.54 78.74) (xy 267.716 78.74)
 		)
 		(stroke
@@ -4786,6 +4756,16 @@
 			(type default)
 		)
 		(uuid "2368b188-54e9-43b4-959e-326d89abe83f")
+	)
+	(wire
+		(pts
+			(xy 256.54 66.04) (xy 267.716 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23bc6e98-5ada-4544-9839-61352e8cf574")
 	)
 	(wire
 		(pts
@@ -6157,6 +6137,16 @@
 		)
 		(uuid "067e68eb-abc1-47a4-a677-0d636a37f817")
 	)
+	(label "ESP_5V"
+		(at 202.946 35.052 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09978ad8-f0e0-46df-8123-b397eeeb7e53")
+	)
 	(label "ID_SDA"
 		(at 31.75 60.96 0)
 		(effects
@@ -6916,6 +6906,16 @@
 			(justify right bottom)
 		)
 		(uuid "ce25e0e3-92ab-4ff4-bde7-f097603c9641")
+	)
+	(label "ESP_IO21"
+		(at 256.54 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1103af2-0007-4c2d-8a12-c5e401151e62")
 	)
 	(label "GPIO24"
 		(at 134.62 34.29 180)
