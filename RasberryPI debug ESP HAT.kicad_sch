@@ -4385,6 +4385,81 @@
 		(uuid "fe8d9267-7834-48d6-a191-c8724b2ee78d")
 	)
 	(no_connect
+		(at 238.76 149.86)
+		(uuid "ec5e37f2-fec1-4f85-83a8-4b51ca1959ff")
+	)
+	(no_connect
+		(at 238.76 152.4)
+		(uuid "1820f33a-5cd4-4eb8-849e-c37281240b03")
+	)
+	(no_connect
+		(at 238.76 154.94)
+		(uuid "1f61a95e-f01d-4318-9772-8b39d08d623b")
+	)
+	(no_connect
+		(at 238.76 157.48)
+		(uuid "33de43d0-6bff-4938-9f78-8fe9d13e22bc")
+	)
+	(no_connect
+		(at 238.76 160.02)
+		(uuid "8ddbcc1d-a5f4-4e0e-b8c8-7253b8ed843c")
+	)
+	(no_connect
+		(at 238.76 162.56)
+		(uuid "2bae9dfc-dbf4-493e-bb57-cee712b4912f")
+	)
+	(no_connect
+		(at 238.76 165.1)
+		(uuid "5733896f-d407-481d-aa9d-ef54f6f01830")
+	)
+	(no_connect
+		(at 238.76 167.64)
+		(uuid "66a42b73-36a7-4a60-b855-e1ffe016d5c9")
+	)
+	(no_connect
+		(at 264.16 149.86)
+		(uuid "779d6bff-27f4-4e9f-ba1e-e6d8f8075eb6")
+	)
+	(no_connect
+		(at 264.16 152.4)
+		(uuid "875b9353-80ca-48af-b8b0-bf9681cc62b7")
+	)
+	(no_connect
+		(at 264.16 154.94)
+		(uuid "8b238131-b304-472f-80b9-807ca270d4ab")
+	)
+	(no_connect
+		(at 264.16 157.48)
+		(uuid "8da3ad3e-d7bb-4d9d-ba95-c6d3a2d79c8b")
+	)
+	(no_connect
+		(at 264.16 160.02)
+		(uuid "631099bd-9f81-44ad-8934-e7cec6da5c52")
+	)
+	(no_connect
+		(at 264.16 162.56)
+		(uuid "4225e80a-42ec-410f-b7d5-ca9da45d8906")
+	)
+	(no_connect
+		(at 264.16 165.1)
+		(uuid "ad5c2b3c-7d1c-4f4e-b8dd-39afaf4ff9a1")
+	)
+	(no_connect
+		(at 264.16 167.64)
+		(uuid "32733c51-b77a-4003-9acf-fb5479a45281")
+	)
+	(text "J4, J5: sockets for the ESP32-C3 SuperMini (U2).\nPads are in the U2 footprint; these symbols\nonly put the sockets in the BOM (not on board)."
+		(exclude_from_sim no)
+		(at 228.6 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "33e577c4-1bf6-4719-99c3-3dbebf16ea5e")
+	)
+	(no_connect
 		(at 267.716 45.72)
 		(uuid "54f20e6a-1e56-4433-a93f-b84ee50343b7")
 	)
@@ -6929,6 +7004,200 @@
 			(justify left bottom)
 		)
 		(uuid "f9b80c2b-5447-4c6b-b35d-cb6b75fa7978")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 243.84 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "83b5b90a-245d-4b7b-bd5e-3d7c5ddd9959")
+		(property "Reference" "J4"
+			(at 242.57 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PinSocket_1x08_P2.54mm"
+			(at 242.57 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+			(at 243.84 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Female pin header 1x8, 2.54 mm, vertical, socket for U2 ESP32-C3 SuperMini; BOM only, part of U2 footprint"
+			(at 243.84 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5aa37987-c1ea-4ad0-b641-96db1c9557a7")
+		)
+		(pin "2"
+			(uuid "46b76a44-27c9-40e5-9ee7-f6a50995c972")
+		)
+		(pin "3"
+			(uuid "17765368-7cfe-48ff-b040-aed49724a90d")
+		)
+		(pin "4"
+			(uuid "abdb8930-dbc1-4924-b85e-8803d5c9b4c4")
+		)
+		(pin "5"
+			(uuid "e35f8739-e330-4fc7-b2dc-7c3352befd46")
+		)
+		(pin "6"
+			(uuid "5ad36dfe-98b1-48a4-b4ba-990bc68e12ae")
+		)
+		(pin "7"
+			(uuid "c207248e-00e5-4b64-827b-3e06da07b879")
+		)
+		(pin "8"
+			(uuid "bfdd9531-2f14-4b6e-b9af-3fdde1e6fee1")
+		)
+		(instances
+			(project "RasberryPI debug ESP HAT"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 269.24 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "2fd13b19-3da5-4cb4-8819-4ab54cccb44f")
+		(property "Reference" "J5"
+			(at 267.97 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PinSocket_1x08_P2.54mm"
+			(at 267.97 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+			(at 269.24 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Female pin header 1x8, 2.54 mm, vertical, socket for U2 ESP32-C3 SuperMini; BOM only, part of U2 footprint"
+			(at 269.24 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9cd0c078-30d1-467d-8aa3-cd69d3009766")
+		)
+		(pin "2"
+			(uuid "cd2c053d-0901-4bd3-8c7d-68494bd11fab")
+		)
+		(pin "3"
+			(uuid "f5c8ec68-ec7c-49af-b59a-572c38bdfe2e")
+		)
+		(pin "4"
+			(uuid "87243cc4-4e34-48f4-9ff9-6a1a2fe66222")
+		)
+		(pin "5"
+			(uuid "aab6e3fe-9c84-4554-8299-deeb13faf954")
+		)
+		(pin "6"
+			(uuid "5840eb0b-c4d7-40da-af19-41b7aaa256be")
+		)
+		(pin "7"
+			(uuid "8efbb4f6-fe6a-4022-b454-f8f5648cb5ee")
+		)
+		(pin "8"
+			(uuid "becc7829-fabf-4de2-bdde-20b8167eb61f")
+		)
+		(instances
+			(project "RasberryPI debug ESP HAT"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
