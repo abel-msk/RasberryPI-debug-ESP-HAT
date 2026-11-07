@@ -15,3 +15,6 @@ backup-before-*/
 template-backup-*/
 
 .DS_Store
+
+# Third-party 3D models (GrabCAD, author stuplja) - not redistributed
+ESP_Debug.3dshapes/KF243-*.STEP
