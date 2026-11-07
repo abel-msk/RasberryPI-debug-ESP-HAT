@@ -8083,7 +8083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP_Debug:KF243-5.0-8P"
+		(property "Footprint" "TerminalBlock_Local:KF243-5.0-8P"
 			(at 272.796 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8181,7 +8181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP_Debug:KF243-5.0-7P"
+		(property "Footprint" "TerminalBlock_Local:KF243-5.0-7P"
 			(at 272.796 66.04 0)
 			(hide yes)
 			(show_name no)

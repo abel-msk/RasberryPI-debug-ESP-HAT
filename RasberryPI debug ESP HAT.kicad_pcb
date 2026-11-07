@@ -3605,7 +3605,7 @@
 			)
 		)
 	)
-	(footprint "ESP_Debug:KF243-5.0-8P"
+	(footprint "TerminalBlock_Local:KF243-5.0-8P"
 		(layer "F.Cu")
 		(uuid "6ed98287-f464-4bcb-8cbe-70e3b1f9652e")
 		(at 124 60.3 -90)
@@ -3967,7 +3967,7 @@
 			(uuid "050f6a89-14c6-44b3-9389-dcf9dcfd2566")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/ESP_Debug.3dshapes/KF243-5.0_4P.STEP"
+		(model "${KIKAD_USER_3DMODELS}/Connectors/Spring_Terminal/KF243/KF243-5.0_4P.STEP"
 			(offset
 				(xyz -2.22 -6.38 -4.15)
 			)
@@ -3978,7 +3978,7 @@
 				(xyz -90 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/ESP_Debug.3dshapes/KF243-5.0_4P.STEP"
+		(model "${KIKAD_USER_3DMODELS}/Connectors/Spring_Terminal/KF243/KF243-5.0_4P.STEP"
 			(offset
 				(xyz 17.78 -6.38 -4.15)
 			)
@@ -5982,7 +5982,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "ESP_Debug:KF243-5.0-7P"
+	(footprint "TerminalBlock_Local:KF243-5.0-7P"
 		(layer "F.Cu")
 		(uuid "e174149e-51ff-45c4-b574-9cdff099af2c")
 		(at 111.7 90.9 90)
@@ -6314,7 +6314,7 @@
 			(uuid "f8d7d2a1-695d-4693-a672-8bb4932167e0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/ESP_Debug.3dshapes/KF243-5.0_4P.STEP"
+		(model "${KIKAD_USER_3DMODELS}/Connectors/Spring_Terminal/KF243/KF243-5.0_4P.STEP"
 			(offset
 				(xyz -2.22 -6.38 -4.15)
 			)
@@ -6325,7 +6325,7 @@
 				(xyz -90 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/ESP_Debug.3dshapes/KF243-5.0_3P.STEP"
+		(model "${KIKAD_USER_3DMODELS}/Connectors/Spring_Terminal/KF243/KF243-5.0_3P.STEP"
 			(offset
 				(xyz 17.78 -6.38 -4.15)
 			)
