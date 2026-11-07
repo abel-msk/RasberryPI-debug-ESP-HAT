@@ -4241,7 +4241,7 @@
 		)
 		(uuid "4db90943-7844-4f81-b2b2-76c16ee7b0c1")
 	)
-	(text "5V pin of ESP is intentionally NC:\nUSB of ESP must not back-feed the Pi"
+	(text "5V pin of ESP goes only to J3 pin 8,\nnot to the Pi 5V: USB of ESP must not back-feed the Pi"
 		(exclude_from_sim no)
 		(at 205.486 29.718 0)
 		(effects
@@ -4436,10 +4436,6 @@
 		(uuid "4ef9f6dd-ccc0-4087-8be9-0d2d8a3fc614")
 	)
 	(no_connect
-		(at 267.716 66.04)
-		(uuid "54f20e6a-1e56-4433-a93f-b84ee50343b7")
-	)
-	(no_connect
 		(at 239.522 140.208)
 		(uuid "5733896f-d407-481d-aa9d-ef54f6f01830")
 	)
@@ -4488,10 +4484,6 @@
 		(uuid "ad5c2b3c-7d1c-4f4e-b8dd-39afaf4ff9a1")
 	)
 	(no_connect
-		(at 202.946 35.052)
-		(uuid "b0a9c6cd-3074-4cf0-a653-77c992246852")
-	)
-	(no_connect
 		(at 60.96 71.12)
 		(uuid "b651806e-8b5d-410b-9c72-11c54e0cb24c")
 	)
@@ -4514,6 +4506,36 @@
 	(no_connect
 		(at 73.66 76.2)
 		(uuid "f86d3b2b-c646-4b95-8a81-1405806a5a7c")
+	)
+	(wire
+		(pts
+			(xy 256.54 66.04) (xy 267.716 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23bc6e98-5ada-4544-9839-61352e8cf574")
+	)
+	(label "ESP_IO21"
+		(at 256.54 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1103af2-0007-4c2d-8a12-c5e401151e62")
+	)
+	(label "ESP_5V"
+		(at 202.946 35.052 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09978ad8-f0e0-46df-8123-b397eeeb7e53")
 	)
 	(wire
 		(pts
@@ -5227,7 +5249,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 83.82) (xy 267.716 83.82)
+			(xy 256.54 48.26) (xy 267.716 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6037,7 +6059,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 48.26) (xy 267.716 48.26)
+			(xy 256.54 83.82) (xy 267.716 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6125,7 +6147,7 @@
 		)
 		(uuid "038e9333-32d1-459a-ba50-ed64bd29767d")
 	)
-	(label "ESP_IO5"
+	(label "ESP_IO0"
 		(at 256.54 63.5 180)
 		(effects
 			(font
@@ -6225,7 +6247,7 @@
 		)
 		(uuid "22f7fb96-1376-4684-b161-515d5769dacf")
 	)
-	(label "ESP_IO10"
+	(label "ESP_3V3"
 		(at 256.54 50.8 180)
 		(effects
 			(font
@@ -6255,7 +6277,7 @@
 		)
 		(uuid "25757096-6824-41d5-9f72-dc0a414716a2")
 	)
-	(label "ESP_IO0"
+	(label "ESP_IO20"
 		(at 256.54 68.58 180)
 		(effects
 			(font
@@ -6265,7 +6287,7 @@
 		)
 		(uuid "26903dbf-a876-4780-ab7f-e64b3bd772fe")
 	)
-	(label "ESP_IO8"
+	(label "ESP_IO3"
 		(at 256.54 55.88 180)
 		(effects
 			(font
@@ -6485,7 +6507,7 @@
 		)
 		(uuid "610a05f5-0e9b-4f2c-960c-05aafdc8e1b9")
 	)
-	(label "ESP_IO21"
+	(label "ESP_5V"
 		(at 256.54 45.72 180)
 		(effects
 			(font
@@ -6605,7 +6627,7 @@
 		)
 		(uuid "8cba5f6b-ef47-4b98-8a8b-197d00f51095")
 	)
-	(label "ESP_IO6"
+	(label "ESP_IO1"
 		(at 256.54 60.96 180)
 		(effects
 			(font
@@ -6675,7 +6697,7 @@
 		)
 		(uuid "a1cb0f9a-5b27-4e0e-bc79-c6e0ff4c58f7")
 	)
-	(label "ESP_IO3"
+	(label "ESP_IO8"
 		(at 256.54 76.2 180)
 		(effects
 			(font
@@ -6695,7 +6717,7 @@
 		)
 		(uuid "a46d6ef9-bb48-47fb-afed-157a64315177")
 	)
-	(label "ESP_IO2"
+	(label "ESP_IO9"
 		(at 256.54 73.66 180)
 		(effects
 			(font
@@ -6755,7 +6777,7 @@
 		)
 		(uuid "b2ab078a-8774-4d1b-9381-5fcf23cc6a42")
 	)
-	(label "ESP_IO7"
+	(label "ESP_IO2"
 		(at 256.54 58.42 180)
 		(effects
 			(font
@@ -6865,7 +6887,7 @@
 		)
 		(uuid "c8d1e7f4-d913-4be8-9ef8-94e399101c56")
 	)
-	(label "ESP_3V3"
+	(label "ESP_IO6"
 		(at 256.54 81.28 180)
 		(effects
 			(font
@@ -6885,8 +6907,8 @@
 		)
 		(uuid "cc241f73-e1b1-4e99-a596-cd4ddc2da791")
 	)
-	(label "ESP_IO20"
-		(at 256.54 48.26 180)
+	(label "ESP_IO5"
+		(at 256.54 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6915,7 +6937,7 @@
 		)
 		(uuid "dd6c1ab1-463a-460b-93e3-6e17d4c06611")
 	)
-	(label "ESP_IO4"
+	(label "ESP_IO7"
 		(at 256.54 78.74 180)
 		(effects
 			(font
@@ -6925,7 +6947,7 @@
 		)
 		(uuid "de082976-00dd-4dca-900b-243848243549")
 	)
-	(label "ESP_IO1"
+	(label "ESP_IO10"
 		(at 256.54 71.12 180)
 		(effects
 			(font
@@ -6955,7 +6977,7 @@
 		)
 		(uuid "e40b1740-d113-448a-be0f-1ffa43c71070")
 	)
-	(label "ESP_IO9"
+	(label "ESP_IO4"
 		(at 256.54 53.34 180)
 		(effects
 			(font
@@ -8281,7 +8303,7 @@
 				)
 			)
 		)
-		(property "Description" "Spring terminal block KF250-2.54-8P-1 (LCSC C49173293), ESP right row: GND, 3V3, IO4..IO0, pin 8 unused (5V NC)"
+		(property "Description" "Spring terminal block KF250-2.54-8P-1 (LCSC C49173293), ESP left row: IO5..IO10, IO20, IO21 (pin 8 = IO21)"
 			(at 272.796 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9583,7 +9605,7 @@
 				)
 			)
 		)
-		(property "Description" "Spring terminal block KF250-2.54-8P-1 (LCSC C49173293), ESP left row: IO5..IO10, IO20, IO21"
+		(property "Description" "Spring terminal block KF250-2.54-8P-1 (LCSC C49173293), ESP right row: IO0..IO4, 3V3, GND, ESP 5V (pin 8)"
 			(at 272.796 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -11359,7 +11381,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 83.82 270)
+		(at 256.54 48.26 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11369,7 +11391,7 @@
 		(dnp no)
 		(uuid "fc92a1fb-f4c9-4b00-9cce-4a3db1004a26")
 		(property "Reference" "#PWR203"
-			(at 256.54 83.82 90)
+			(at 256.54 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11380,7 +11402,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.04 83.82 90)
+			(at 252.04 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11390,7 +11412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 83.82 0)
+			(at 256.54 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11401,7 +11423,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 83.82 0)
+			(at 256.54 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11412,7 +11434,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 83.82 0)
+			(at 256.54 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
