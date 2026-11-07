@@ -6497,16 +6497,6 @@
 		)
 		(uuid "610a05f5-0e9b-4f2c-960c-05aafdc8e1b9")
 	)
-	(label "ESP_5V"
-		(at 256.54 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6416ec04-a2a9-465f-885d-ad7ca6916c80")
-	)
 	(label "GPIO8{slash}SPI0.CE0"
 		(at 100.33 55.88 180)
 		(effects
@@ -7916,6 +7906,81 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 256.54 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "209d0d6a-232f-4f85-ba60-68fcf30adc4e")
+		(property "Reference" "#PWR05"
+			(at 256.54 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 256.9083 41.3956 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 256.54 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7aa72635-ac8a-4d84-a567-01c1f9d96344")
+		)
+		(instances
+			(project "RasberryPI debug ESP HAT"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 104.394 156.972 0)
 		(unit 1)
@@ -8934,7 +8999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
+		(property "Footprint" "SW_SPST_Omron_B3FS-100xP"
 			(at 161.036 153.924 0)
 			(hide yes)
 			(show_name no)
@@ -8959,6 +9024,16 @@
 		(property "Description" ""
 			(at 161.036 153.924 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "descr" ""
+			(at 161.036 153.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9777,7 +9852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
+		(property "Footprint" "SW_SPST_Omron_B3FS-100xP"
 			(at 136.906 136.398 0)
 			(hide yes)
 			(show_name no)
@@ -9802,6 +9877,16 @@
 		(property "Description" ""
 			(at 136.906 136.398 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "descr" ""
+			(at 136.906 136.398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
