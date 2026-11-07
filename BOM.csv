@@ -3,7 +3,7 @@
 "C2","10u","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","1","",""
 "D1","PWR","LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder","1","",""
 "J1","GPIO","Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical","1","","Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-"J2,J3","KF250-2.54-8P","TerminalBlock_Local:KF250-2.54-8P","2","","Spring terminal block KF250-2.54-8P-1 (LCSC C49173293), logic analyzer GND/3V3/IO21..IO7,Spring terminal block KF250-2.54-8P-1 (LCSC C49173293), logic analyzer IO6..IO0, pin 8 unused"
+"J2,J3","KF250-2.54-8P","TerminalBlock_Local:KF250-2.54-8P","2","","Spring terminal block KF250-2.54-8P-1 (LCSC C49173293), ESP left row: IO5..IO10, IO20, IO21,Spring terminal block KF250-2.54-8P-1 (LCSC C49173293), ESP right row: GND, 3V3, IO4..IO0, pin 8 unused (5V NC)"
 "J4,J5","PinSocket_1x08_P2.54mm","Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical","2","","Female pin header 1x8, 2.54 mm, vertical, socket for U2 ESP32-C3 SuperMini; BOM only, part of U2 footprint"
 "JP1","ID_WP","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","1","","Jumper, 2-pole, open (2-pin header)"
 "Q1","AO3401A","Package_TO_SOT_SMD:SOT-23","1","",""

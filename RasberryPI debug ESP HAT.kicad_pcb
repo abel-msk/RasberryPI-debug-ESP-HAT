@@ -1818,7 +1818,7 @@
 				)
 			)
 		)
-		(property "Description" "Spring terminal block KF250-2.54-8P-1 (LCSC C49173293), logic analyzer IO6..IO0, pin 8 unused"
+		(property "Description" "Spring terminal block KF250-2.54-8P-1 (LCSC C49173293), ESP left row: IO5..IO10, IO20, IO21"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1830,9 +1830,16 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7f8fdf61-d93c-45b9-b14b-5f4afce333d0")
 		(sheetname "/")
 		(sheetfile "RasberryPI debug ESP HAT.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2001,7 +2008,9 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/ESP_IO6")
+			(net "/ESP_IO5")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
 			(uuid "909c309c-72dc-46af-aae3-ebcc3ac39734")
 		)
 		(pad "2" thru_hole circle
@@ -2010,7 +2019,9 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/ESP_IO5")
+			(net "/ESP_IO6")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
 			(uuid "8564c19c-8f75-4531-83c0-8e575d9b5d00")
 		)
 		(pad "3" thru_hole circle
@@ -2019,7 +2030,9 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/ESP_IO4")
+			(net "/ESP_IO7")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
 			(uuid "4b37c5b0-21b0-45b0-a4f5-e4b263f70475")
 		)
 		(pad "4" thru_hole circle
@@ -2028,7 +2041,9 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/ESP_IO3")
+			(net "/ESP_IO8")
+			(pinfunction "Pin_4_4")
+			(pintype "passive")
 			(uuid "29254131-ac5b-497e-af56-3ecd482c8d16")
 		)
 		(pad "5" thru_hole circle
@@ -2037,7 +2052,9 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/ESP_IO2")
+			(net "/ESP_IO9")
+			(pinfunction "Pin_5_5")
+			(pintype "passive")
 			(uuid "88c4a0ba-0579-413b-86aa-7ae01b3e3abe")
 		)
 		(pad "6" thru_hole circle
@@ -2046,7 +2063,9 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/ESP_IO1")
+			(net "/ESP_IO10")
+			(pinfunction "Pin_6_6")
+			(pintype "passive")
 			(uuid "7d998c25-b153-4602-beef-06f32f63e15e")
 		)
 		(pad "7" thru_hole circle
@@ -2055,7 +2074,9 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/ESP_IO0")
+			(net "/ESP_IO20")
+			(pinfunction "Pin_7_7")
+			(pintype "passive")
 			(uuid "64a53471-844e-46ef-af09-46041b6c753a")
 		)
 		(pad "8" thru_hole circle
@@ -2064,7 +2085,9 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(J3-Pin_8-Pad8)")
+			(net "/ESP_IO21")
+			(pinfunction "Pin_8_8")
+			(pintype "passive")
 			(uuid "b6c49333-3881-4d10-85ba-19c807bbfcb4")
 		)
 		(embedded_fonts no)
@@ -3958,7 +3981,7 @@
 				)
 			)
 		)
-		(property "Description" "Spring terminal block KF250-2.54-8P-1 (LCSC C49173293), logic analyzer GND/3V3/IO21..IO7"
+		(property "Description" "Spring terminal block KF250-2.54-8P-1 (LCSC C49173293), ESP right row: GND, 3V3, IO4..IO0, pin 8 unused (5V NC)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4173,7 +4196,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/ESP_IO21")
+			(net "/ESP_IO4")
 			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "b89e2c6d-3360-4183-b950-69800b8327bd")
@@ -4184,7 +4207,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/ESP_IO20")
+			(net "/ESP_IO3")
 			(pinfunction "Pin_4_4")
 			(pintype "passive")
 			(uuid "475c1d70-4a87-409f-956e-b27d247e494e")
@@ -4195,7 +4218,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/ESP_IO10")
+			(net "/ESP_IO2")
 			(pinfunction "Pin_5_5")
 			(pintype "passive")
 			(uuid "9a738ed1-56e8-47d7-b94a-46468d3a72af")
@@ -4206,7 +4229,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/ESP_IO9")
+			(net "/ESP_IO1")
 			(pinfunction "Pin_6_6")
 			(pintype "passive")
 			(uuid "4a141de8-1669-4a89-81e8-18e647f0cefe")
@@ -4217,7 +4240,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/ESP_IO8")
+			(net "/ESP_IO0")
 			(pinfunction "Pin_7_7")
 			(pintype "passive")
 			(uuid "27dd0443-6c63-44bc-8414-5046f6a85272")
@@ -4228,9 +4251,9 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/ESP_IO7")
+			(net "unconnected-(J2-Pin_8-Pad8)")
 			(pinfunction "Pin_8_8")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "f07b8961-90e2-4bba-89fe-c1c0a57098ae")
 		)
 		(embedded_fonts no)
@@ -8362,7 +8385,7 @@
 			)
 		)
 	)
-	(gr_text "IO7"
+	(gr_text "NC"
 		(at 106.985 69.433 90)
 		(layer "B.SilkS")
 		(uuid "3317b5e0-d0b3-424f-a988-916670462278")
@@ -8374,7 +8397,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "IO6"
+	(gr_text "IO5"
 		(at 108.763 80.91 90)
 		(layer "B.SilkS")
 		(uuid "b3f15745-b422-4879-8717-c79f8c0b817f")
@@ -8386,7 +8409,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "IO8"
+	(gr_text "IO0"
 		(at 109.525 69.433 90)
 		(layer "B.SilkS")
 		(uuid "851b1d30-74b5-4bc2-baa6-e9331d5f8ae4")
@@ -8398,7 +8421,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "IO5"
+	(gr_text "IO6"
 		(at 111.303 80.91 90)
 		(layer "B.SilkS")
 		(uuid "579ee0c8-90a9-4d12-bae1-547e2a1baa75")
@@ -8410,7 +8433,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "IO9"
+	(gr_text "IO1"
 		(at 112.065 69.433 90)
 		(layer "B.SilkS")
 		(uuid "75c250a4-cd02-4c60-95a8-4430d3590d8a")
@@ -8422,7 +8445,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "IO4"
+	(gr_text "IO7"
 		(at 113.843 80.91 90)
 		(layer "B.SilkS")
 		(uuid "9b52800a-2e3a-47a3-b8c7-fded1e638531")
@@ -8434,7 +8457,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "IO10"
+	(gr_text "IO2"
 		(at 114.605 69.433 90)
 		(layer "B.SilkS")
 		(uuid "357ef000-8591-4f30-9a2c-11244906ba62")
@@ -8446,7 +8469,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "IO3"
+	(gr_text "IO8"
 		(at 116.383 80.91 90)
 		(layer "B.SilkS")
 		(uuid "8a54fbfc-b7c0-49ec-b311-32aba40e29d3")
@@ -8458,7 +8481,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "IO20"
+	(gr_text "IO3"
 		(at 117.145 69.433 90)
 		(layer "B.SilkS")
 		(uuid "49d27ba1-5d14-43e8-b53d-2696d29aa7d4")
@@ -8470,7 +8493,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "IO2"
+	(gr_text "IO9"
 		(at 118.923 80.91 90)
 		(layer "B.SilkS")
 		(uuid "8f3020c3-9527-4097-a12a-11e0403e45d2")
@@ -8482,7 +8505,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "IO21"
+	(gr_text "IO4"
 		(at 119.685001 69.433 90)
 		(layer "B.SilkS")
 		(uuid "514de4d2-c62c-44c2-bf38-815dd6e75c84")
@@ -8494,7 +8517,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "IO1"
+	(gr_text "IO10"
 		(at 121.463 80.91 90)
 		(layer "B.SilkS")
 		(uuid "12560c44-26f9-48f4-9564-082c652d01bb")
@@ -8518,7 +8541,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "IO0"
+	(gr_text "IO20"
 		(at 124.003 80.91 90)
 		(layer "B.SilkS")
 		(uuid "3f977058-6f59-4e27-9719-140bf83e8609")
@@ -8542,7 +8565,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "NC"
+	(gr_text "IO21"
 		(at 126.543 80.91 90)
 		(layer "B.SilkS")
 		(uuid "1abc0c39-0068-44c2-916e-53b910021fc7")
