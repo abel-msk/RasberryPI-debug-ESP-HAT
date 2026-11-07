@@ -2057,9 +2057,9 @@
 			(uuid "b6c49333-3881-4d10-85ba-19c807bbfcb4")
 		)
 		(embedded_fonts no)
-		(model "${KIKAD_USER_3DMODELS}/Connectors/Spring_Terminal/KF250/KF250-2.54-8P.wrl"
+		(model "${KIKAD_USER_3DMODELS}/Connectors/Spring_Terminal/KF250/Type_AB/KF250-2.54-8P_AB.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -5 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -4223,9 +4223,9 @@
 			(uuid "f07b8961-90e2-4bba-89fe-c1c0a57098ae")
 		)
 		(embedded_fonts no)
-		(model "${KIKAD_USER_3DMODELS}/Connectors/Spring_Terminal/KF250/KF250-2.54-8P.wrl"
+		(model "${KIKAD_USER_3DMODELS}/Connectors/Spring_Terminal/KF250/Type_AB/KF250-2.54-8P_AB.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -5 0)
 			)
 			(scale
 				(xyz 1 1 1)
