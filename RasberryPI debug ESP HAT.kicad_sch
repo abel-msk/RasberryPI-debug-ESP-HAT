@@ -4385,6 +4385,10 @@
 		(uuid "fe8d9267-7834-48d6-a191-c8724b2ee78d")
 	)
 	(no_connect
+		(at 267.716 45.72)
+		(uuid "54f20e6a-1e56-4433-a93f-b84ee50343b7")
+	)
+	(no_connect
 		(at 60.96 68.58)
 		(uuid "0caaea2b-5f6a-468c-8833-cc69b1ecb7bd")
 	)
@@ -8150,7 +8154,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x07")
+		(lib_id "Connector_Generic:Conn_01x08")
 		(at 272.796 55.88 0)
 		(mirror x)
 		(unit 1)
@@ -8171,7 +8175,7 @@
 				)
 			)
 		)
-		(property "Value" "KF250-2.54-7P"
+		(property "Value" "KF250-2.54-8P"
 			(at 276.606 40.386 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8181,7 +8185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Local:KF250-2.54-7P"
+		(property "Footprint" "TerminalBlock_Local:KF250-2.54-8P"
 			(at 272.796 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8203,7 +8207,7 @@
 				)
 			)
 		)
-		(property "Description" "Spring terminal block KF250-2.54-7P-1 (LCSC C49173292), logic analyzer IO6..IO0"
+		(property "Description" "Spring terminal block KF250-2.54-8P-1 (LCSC C49173293), logic analyzer IO6..IO0, pin 8 unused"
 			(at 272.796 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8234,6 +8238,9 @@
 		)
 		(pin "7"
 			(uuid "3fd54ee1-e6d9-4d25-9634-09e4e5367912")
+		)
+		(pin "8"
+			(uuid "3fc2ac5c-7170-499c-b56f-e8527a1802ad")
 		)
 		(instances
 			(project "RasberryPI debug ESP HAT"
