@@ -1607,15 +1607,15 @@
 			(uuid "f60d82c8-a101-49c8-8035-06cd5bf28a75")
 		)
 		(embedded_fonts no)
-		(model "${KIKAD_USER_3DMODELS}/Modules/esp32c3supermini-color.step"
+		(model "${KIKAD_USER_3DMODELS}/Modules/ESP32-C3_SuperMini_detailed.step"
 			(offset
-				(xyz -9 10.5 0)
+				(xyz -8.582 10.668 -7.475)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 90)
+				(xyz -90 0 0)
 			)
 		)
 	)
