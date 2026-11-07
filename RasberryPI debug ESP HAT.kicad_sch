@@ -11696,7 +11696,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 red TO-1608BC-MRE, ESP IO0 activity"
+		(property "Description" "LED 0603 red TO-1608BC-MRE, GPIO activity"
 			(at 231.14 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -11887,7 +11887,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 red TO-1608BC-MRE, ESP IO1 activity"
+		(property "Description" "LED 0603 red TO-1608BC-MRE, GPIO activity"
 			(at 231.14 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -12084,7 +12084,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 red TO-1608BC-MRE, ESP IO3 activity"
+		(property "Description" "LED 0603 red TO-1608BC-MRE, GPIO activity"
 			(at 231.14 101.60 0)
 			(hide yes)
 			(show_name no)
@@ -12281,7 +12281,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 red TO-1608BC-MRE, ESP IO4 activity"
+		(property "Description" "LED 0603 red TO-1608BC-MRE, GPIO activity"
 			(at 231.14 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -12478,7 +12478,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 red TO-1608BC-MRE, ESP IO5 activity"
+		(property "Description" "LED 0603 red TO-1608BC-MRE, GPIO activity"
 			(at 231.14 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12773,7 +12773,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 red TO-1608BC-MRE, ESP IO6 activity"
+		(property "Description" "LED 0603 red TO-1608BC-MRE, GPIO activity"
 			(at 262.89 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12964,7 +12964,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 red TO-1608BC-MRE, ESP IO7 activity"
+		(property "Description" "LED 0603 red TO-1608BC-MRE, GPIO activity"
 			(at 262.89 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -13161,7 +13161,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 red TO-1608BC-MRE, ESP IO10 activity"
+		(property "Description" "LED 0603 red TO-1608BC-MRE, GPIO activity"
 			(at 262.89 101.60 0)
 			(hide yes)
 			(show_name no)
@@ -13358,7 +13358,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 blue TO-1608BC-BF, ESP IO20 activity"
+		(property "Description" "LED 0603 blue TO-1608BC-BF, GPIO activity"
 			(at 262.89 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -13555,7 +13555,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 blue TO-1608BC-BF, ESP IO21 activity"
+		(property "Description" "LED 0603 blue TO-1608BC-BF, GPIO activity"
 			(at 262.89 109.22 0)
 			(hide yes)
 			(show_name no)
