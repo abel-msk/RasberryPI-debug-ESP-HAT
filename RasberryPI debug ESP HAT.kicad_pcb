@@ -9,8 +9,8 @@
 	(paper "A3")
 	(title_block
 		(title "RasberryPI debug ESP HAT")
-		(date "2026-11-06")
-		(rev "1.0")
+		(date "2026-11-08")
+		(rev "2.1")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -11722,6 +11722,18 @@
 			(justify right)
 		)
 	)
+	(gr_text "RasberryPI debug\nESP HAT  v2.1"
+		(at 106.2 76.45 0)
+		(layer "F.SilkS")
+		(uuid "3f47202e-bd84-4edb-ae3d-f68522d8ac1f")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
 	(gr_text "BOOT"
 		(at 136.322 98.095 0)
 		(layer "F.SilkS")
@@ -11938,7 +11950,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "RasberryPI debug ESP HAT v1.0"
+	(gr_text "RasberryPI debug ESP HAT v2.1"
 		(at 134 52.6 0)
 		(layer "B.SilkS")
 		(uuid "8c4b29ba-6674-4e54-b318-01d07773d953")

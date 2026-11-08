@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "RasberryPI debug ESP HAT")
-		(date "2026-11-06")
-		(rev "1.0")
+		(date "2026-11-08")
+		(rev "2.1")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x07"
