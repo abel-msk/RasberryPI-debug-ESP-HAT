@@ -4252,7 +4252,7 @@
 		)
 		(uuid "509d5236-74ab-4889-bf00-7c284992649e")
 	)
-	(text "GPIO activity LEDs. IO2, IO8, IO9 are strap pins: no LED.\nGreen 0603 (pure green, Vf ~2.8-3.2 V) + 1k: 0.2-0.4 mA."
+	(text "GPIO activity LEDs. IO2, IO8, IO9 are strap pins: no LED.\nBlue 0603 TO-1608BC-BF (Vf ~2.8-3.2 V) + 1k: 0.2-0.4 mA."
 		(exclude_from_sim no)
 		(at 215.9 86.36 0)
 		(effects
@@ -8248,7 +8248,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "BLUE"
 			(at 231.14 107.61 0)
 			(hide yes)
 			(show_name no)
@@ -8281,7 +8281,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 green, GPIO activity"
+		(property "Description" "LED 0603 blue TO-1608BC-BF, GPIO activity"
 			(at 231.14 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8879,7 +8879,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "BLUE"
 			(at 262.89 111.42 0)
 			(hide yes)
 			(show_name no)
@@ -8912,7 +8912,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 green, GPIO activity"
+		(property "Description" "LED 0603 blue TO-1608BC-BF, GPIO activity"
 			(at 262.89 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10450,7 +10450,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "BLUE"
 			(at 262.89 103.8 0)
 			(hide yes)
 			(show_name no)
@@ -10483,7 +10483,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 green, GPIO activity"
+		(property "Description" "LED 0603 blue TO-1608BC-BF, GPIO activity"
 			(at 262.89 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -10531,7 +10531,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "BLUE"
 			(at 231.14 103.8 0)
 			(hide yes)
 			(show_name no)
@@ -10564,7 +10564,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 green, GPIO activity"
+		(property "Description" "LED 0603 blue TO-1608BC-BF, GPIO activity"
 			(at 231.14 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11046,7 +11046,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "BLUE"
 			(at 231.14 96.18 0)
 			(hide yes)
 			(show_name no)
@@ -11079,7 +11079,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 green, GPIO activity"
+		(property "Description" "LED 0603 blue TO-1608BC-BF, GPIO activity"
 			(at 231.14 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -11898,7 +11898,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PWR"
+		(property "Value" "GREEN"
 			(at 213.868 148.844 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11931,7 +11931,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0603 green, ESP power indicator"
 			(at 208.28 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -12295,7 +12295,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "BLUE"
 			(at 231.14 99.99 0)
 			(hide yes)
 			(show_name no)
@@ -12328,7 +12328,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 green, GPIO activity"
+		(property "Description" "LED 0603 blue TO-1608BC-BF, GPIO activity"
 			(at 231.14 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -12376,7 +12376,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "BLUE"
 			(at 262.89 96.18 0)
 			(hide yes)
 			(show_name no)
@@ -12409,7 +12409,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 green, GPIO activity"
+		(property "Description" "LED 0603 blue TO-1608BC-BF, GPIO activity"
 			(at 262.89 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12699,7 +12699,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "BLUE"
 			(at 231.14 111.42 0)
 			(hide yes)
 			(show_name no)
@@ -12732,7 +12732,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 green, GPIO activity"
+		(property "Description" "LED 0603 blue TO-1608BC-BF, GPIO activity"
 			(at 231.14 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12780,7 +12780,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "BLUE"
 			(at 262.89 99.99 0)
 			(hide yes)
 			(show_name no)
@@ -12813,7 +12813,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 green, GPIO activity"
+		(property "Description" "LED 0603 blue TO-1608BC-BF, GPIO activity"
 			(at 262.89 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -13097,7 +13097,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "BLUE"
 			(at 262.89 107.61 0)
 			(hide yes)
 			(show_name no)
@@ -13130,7 +13130,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 green, GPIO activity"
+		(property "Description" "LED 0603 blue TO-1608BC-BF, GPIO activity"
 			(at 262.89 105.41 0)
 			(hide yes)
 			(show_name no)
